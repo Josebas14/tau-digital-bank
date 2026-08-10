@@ -18,13 +18,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
+<!--
 	<repositories>
 		<repository>
 			<id>artifactory-broadcom-sv</id>
 			<name>artifactory-broadcom</name>
 			<url>https://packages.broadcom.com/artifactory/sv</url>
 		</repository>
-	</repositories>
+	</repositories> -->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -273,13 +274,13 @@
     		<scope>test</scope>
 		</dependency>
 
-		<!-- CodeSV public build -->
+		<!-- CodeSV public build 
 		<dependency>
 			<groupId>com.broadcom.codesv</groupId>
 			<artifactId>codesv-dist-jar</artifactId>
 			<version>2.0.5</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency>-->
 
 	</dependencies>
 	
