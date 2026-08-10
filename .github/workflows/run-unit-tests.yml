@@ -13,6 +13,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3.3.0
         
-      - name: run sin test
-        run: mvn clean install -DskipTests
+      - name: run unit test
+        run: mvn test
         
